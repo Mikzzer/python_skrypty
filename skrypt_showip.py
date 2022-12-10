@@ -15,3 +15,4 @@ with open(logfile) as f:
     for logs in log:
         print(logs)
     print(f'wyniki : {c}')
+os.system(f'sudo rm {logfile}')
